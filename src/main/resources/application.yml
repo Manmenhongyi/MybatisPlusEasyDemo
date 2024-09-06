@@ -1,0 +1,9 @@
+spring:
+#  application:
+#    name:mybatisDemo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatisplus?useSSL=false
+    username: root
+    password: wolfmmhy
+#    yml文件中冒号后面要有空格
